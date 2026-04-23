@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Env soubor s klici - NIKDY necommitnout
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store

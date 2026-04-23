@@ -42,7 +42,7 @@ DEFAULT_PROMPT = "Kolik je (17 * 23) + odmocnina ze 144 - 3 na druhou?"
 
 # povolene AST uzly - cokoliv jineho vyhodi SyntaxError
 _ALLOWED_NODES = (
-    ast.Expression, ast.BinOp, ast.UnaryOp, ast.Constant, ast.Num,
+    ast.Expression, ast.BinOp, ast.UnaryOp, ast.Constant,
     ast.Add, ast.Sub, ast.Mult, ast.Div, ast.FloorDiv, ast.Mod, ast.Pow,
     ast.USub, ast.UAdd, ast.Call, ast.Name, ast.Load,
 )
